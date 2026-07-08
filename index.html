@@ -905,5 +905,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C53P1:END-->
+<!--WY-C53P2:BEGIN-->
+<style id="wy-c53p2-css">
+.c53p2-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c53p2-fabbox.show{display:block;}
+.c53p2-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c53p2-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c53p2-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c53p2-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c53p2-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c53p2-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c53p2-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c53p2-modal.open{display:flex;}
+.c53p2-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c53p2-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c53p2-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c53p2-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c53p2-close:hover{background:#e3d5b8;}
+.c53p2-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c53p2-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c53p2-tbl th,.c53p2-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c53p2-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c53p2-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c53p2-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c53p2-tbl b{color:#8b2500;}
+.c53p2-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c53p2-note b{color:#8b2500;}
+@media(max-width:900px){.c53p2-fabbox{right:14px;}.c53p2-tbl{font-size:11.5px;}.c53p2-card{padding:26px 14px 16px;}}
+</style>
+<div class="c53p2-fabbox" id="c53p2Box"><button class="c53p2-btn" id="c53p2Btn" type="button" aria-label="開啟全景總表"><span class="c53p2-ic">▦</span><span class="c53p2-ls"><span class="c53p2-l1">本品 · 般若法性無生</span><span class="c53p2-l2">破生破二 · 一本二喻三無</span></span></button></div><div class="c53p2-modal" id="c53p2Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c53p2-card"><button class="c53p2-close" id="c53p2Close" type="button" aria-label="關閉">×</button><h3>卷五十三·第二品 般若法性無生 · 全景總表</h3><p class="sub">卷五十三・第二品｜破生破二終極統合・本自無生一義二門・除廁作舍如幻觀・自相空與散空・一本二喻三無</p><table class="c53p2-tbl"><caption>一、三重叩問的辯證主線（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>舍利弗初問</td><td>「何因緣色不生？」核心命題：<b>色不生是非色</b>——破生（時間／因果的解構）</td></tr><tr><td>舍利弗更問</td><td>「何因緣色不二？」核心命題：<b>色不二是非色</b>——破二（空間／對待的解構）</td></tr><tr><td>舍利弗終問</td><td>「何因緣入無二法數？」核心命題：<b>色即是無生</b>——終極統合，時間之斧與空間之錘皆指向同一原點</td></tr><tr><td>本自無生</td><td>「色性常自無生」——空性不是被智慧「製造」出來的結果，而是本來如此；智慧的作用是發現，不是消滅</td></tr><tr><td>一義二門</td><td>無生與不二義理同一，僅所入觀門不同——一從時間因果縱破，一從空間對待橫破，「歸元無二路，方便有多門」</td></tr></tbody></table><table class="c53p2-tbl"><caption>二、破生觀門與破二觀門的關鍵辨析</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>破生觀門透視</td><td>「色相空，色空中無色、無生」——不是要「毀滅」色法，而在透視色法本來無生</td></tr><tr><td>兩種空的分野</td><td>有作之空（凡夫誤區，以智慧「消滅」色法，猶存本色想）vs 本性自空（實相般若，「非今智慧力故使無生」）</td></tr><tr><td>除廁作舍之喻</td><td>破色令空如拆廁建舍，「今雖無廁，猶有不淨想」——微細法執如放大鏡下方才得見的塵翳</td></tr><tr><td>破二觀門答覆</td><td>「所有色，所有不二……不合、不散，無色無形無對，一相所謂無相」——空間拓樸學的三層遞進</td></tr><tr><td>自相空與散空</td><td>無生因緣是「自相空」（法體本來無生，不待分析）；不二因緣是「散空」（拆解聚合假象，發現無獨立實體），義雖同一空</td></tr></tbody></table><table class="c53p2-tbl"><caption>三、觀門會通與心法口訣「一本二喻三無」</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>邏輯打通</td><td>「色破散即是無生，不得更有無生」——散空與自相空最終會通於同一原點</td></tr><tr><td>行者分別</td><td>「或先入無生觀門，後入不二；或先入不二，後入無生觀」——依根性靈活擇門，義雖一而行者分別</td></tr><tr><td>跨文本印證</td><td>破生（縱向·時間因果）與破二（橫向·空間對待）恰與《中論》「八不中道」對應</td></tr><tr><td>一本二喻</td><td>一本——本自無生，智慧是發現而非製造；二喻——除廁如幻，知幻化則無廁想，破除自性見</td></tr><tr><td>三無</td><td>無知、無得、無生——連「我證得無生」之念亦徹底寂滅，方是《中論》「善滅諸戲論」的終極解脫</td></tr></tbody></table><p class="c53p2-note">第二品把「無生」拆解為破生（時間縱破）與破二（空間橫破）兩條觀門，看似殊途，實則同歸一義——「色破散即是無生，色即是無生，無生即是色」。須菩提以「除廁作舍」之喻，精準劃開凡夫「猶存本色想」的微細法執，與般若「知幻化則無廁想」的究竟清淨。般若非破壞之斧，乃照見本源之光——論辯窮盡之處，即是實相無生。<b>一本（本自無生）、二喻（除廁如幻）、三無（無知無得無生）</b>三句口訣，收攝全品從時間、空間到言詮三重解構的中觀心法。</p></div></div>
+<script id="wy-c53p2-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c53p2Btn"),BOX=document.getElementById("c53p2Box"),MODAL=document.getElementById("c53p2Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=1;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoFab,.wy-video-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c53p2Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C53P2:END-->
 </body>
 </html>
