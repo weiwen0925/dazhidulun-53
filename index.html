@@ -1064,5 +1064,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C53P4:END-->
+<!--WY-C53P5:BEGIN-->
+<style id="wy-c53p5-css">
+.c53p5-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c53p5-fabbox.show{display:block;}
+.c53p5-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c53p5-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c53p5-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c53p5-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c53p5-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c53p5-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c53p5-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c53p5-modal.open{display:flex;}
+.c53p5-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c53p5-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c53p5-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c53p5-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c53p5-close:hover{background:#e3d5b8;}
+.c53p5-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c53p5-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c53p5-tbl th,.c53p5-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c53p5-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c53p5-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c53p5-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c53p5-tbl b{color:#8b2500;}
+.c53p5-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c53p5-note b{color:#8b2500;}
+@media(max-width:900px){.c53p5-fabbox{right:14px;}.c53p5-tbl{font-size:11.5px;}.c53p5-card{padding:26px 14px 16px;}}
+</style>
+<div class="c53p5-fabbox" id="c53p5Box"><button class="c53p5-btn" id="c53p5Btn" type="button" aria-label="開啟全景總表"><span class="c53p5-ic">▦</span><span class="c53p5-ls"><span class="c53p5-l1">本品 · 須菩提與富樓那之辨說</span><span class="c53p5-l2">諸法無所依 · 去刺開道</span></span></button></div><div class="c53p5-modal" id="c53p5Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c53p5-card"><button class="c53p5-close" id="c53p5Close" type="button" aria-label="關閉">×</button><h3>卷五十三·第五品 須菩提與富樓那之辨說 · 全景總表</h3><p class="sub">卷五十三・第五品｜諸法無所依故・世間出世間六波羅蜜三分清淨・老病依他去刺開道・遠道近道道至則捨</p><table class="c53p5-tbl"><caption>一、人境行果三層辨析（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>破題</td><td>舍利弗讚須菩提「說法人中應最在上」，須菩提答「諸法無所依故」——由世俗讚譽瞬間轉入般若核心，三問三答環環相扣</td></tr><tr><td>人境之辨</td><td>富樓那（通才·世俗諦廣度）與須菩提（專才·第一義諦深度）之別——佛以佛眼籌量，各記第一，二諦並建互不相違</td></tr><tr><td>行法之辨</td><td>世間波羅蜜（有所依止，著我相他相施相，於世間不動不出）vs 出世間波羅蜜（三分清淨，我／受者／施物皆不可得，能動能出）</td></tr><tr><td>因果之辨</td><td>菩薩道（從能行之人得名）與菩提道（從所證之果得名）——同一條路，視角不同而有二名；佛已到，不須道</td></tr><tr><td>統攝樞紐</td><td>三層辨析皆奠基於「無所依（空）」——二諦並建、中道離邊、畢竟空為體，一理貫穿人境行果</td></tr></tbody></table><table class="c53p5-tbl"><caption>二、不謙不受的中道人格與去刺開道</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>不謙不受</td><td>「安立平實，好人相故」——自讚非大人相，自毀是姣輸人，讚他是諂媚人，毀他是讒賊人；須菩提斷法愛故心不高，實讚故不謙</td></tr><tr><td>無所依止之喻</td><td>「內法空故不依內，外法空故不依外，中間無所有故不依中間」——如風行空，內外中間皆無所依止，煩惱無處生根</td></tr><tr><td>老病人依止</td><td>缺乏實相智慧、心力薄弱者，須攀緣己身財物受者三相方能行立，如老病人依恃拐杖——依止的本質是將「依他起性」誤計為「自性實有」</td></tr><tr><td>淨即是開</td><td>「淨」非靜態潔癖，而是動態「開路」——如去道中荊棘，修六度是為砍掉慳貪依止之荊棘，荊棘去盡道自開通</td></tr><tr><td>動出二義</td><td>世間波羅蜜「不動不出」（困於輪迴）；出世間波羅蜜「能動（柔順忍）、能出（無生法忍）」，聲聞法中動者學人、出者無學</td></tr></tbody></table><table class="c53p5-tbl"><caption>三、遠道近道與菩提道全光譜</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>遠道近道之辨</td><td>六波羅蜜（雜世間有漏，布施持戒易夾雜求報人我相，故遠）vs 三十七道品三解脫門（畢竟清淨，唯禪定智慧，故近）——遠近唯在純雜非空間距離</td></tr><tr><td>轉化鍊金術</td><td>六波羅蜜注入「無所得空」的三十七道品／三解脫門，世俗雜染即刻淨化——遠道瞬間折疊為近道，關鍵在布施時是否具足三輪體空</td></tr><tr><td>道至則捨</td><td>「菩薩時有道，佛已到不須道」——道是渡河之筏，既到彼岸能所雙亡，道已內化為果，呼應《中論》「已去無有去」與《筏喻經》法尚應捨</td></tr><tr><td>菩提道全光譜</td><td>「從初發意乃至金剛三昧，其中為菩提菩薩行，皆是菩提道」——修行是從第一念貫穿到成佛前最後一念的連續空性張力</td></tr><tr><td>破立不二</td><td>須菩提全程破除法愛、世間依止相、修行者憍慢，同時即是立——不廢世俗諦容許老病人起步，而後以無相之風淨化成出世間道</td></tr></tbody></table><p class="c53p5-note">第五品由一句尋常的讚歎「說法人中應最在上」切入，須菩提僅以「諸法無所依故」五字，便將話鋒引向般若核心。全品依人、行、果三層層層昇華，卻共繫於同一樞紐——無所依（空）。「不謙不受」示範了離於讚毀二邊的中道人格；「淨即是開」重新定義修行不是加法式的功德累積，而是砍除依止荊棘的減法；「道至則捨」則以渡河之筏收束菩薩道與菩提道的名相之辨——遠道與近道之別，不在空間，而在心是否雜有所得。三層辨析最終合而為一句結語：<b>真正的精進，不是在幻象的遠道上奔跑，而是砍掉依止，回到畢竟清淨的當下</b>。</p></div></div>
+<script id="wy-c53p5-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c53p5Btn"),BOX=document.getElementById("c53p5Box"),MODAL=document.getElementById("c53p5Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=4;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoFab,.wy-video-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c53p5Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C53P5:END-->
 </body>
 </html>
