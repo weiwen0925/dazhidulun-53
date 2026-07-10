@@ -1396,5 +1396,53 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BH53P1:END-->
+<!--WY-BH53P2:BEGIN-->
+<style id="wy-bh53p2-css">
+.bh53p2-fabbox{position:fixed;right:22px;bottom:260px;z-index:123;display:none;}
+.bh53p2-fabbox.show{display:block;}
+.bh53p2-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#4a5a68,#232d36);padding:8px 15px;border-radius:22px;border:1px solid rgba(150,180,205,.55);box-shadow:0 4px 16px rgba(0,0,0,.32);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.bh53p2-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(120,160,200,.5);}
+.bh53p2-ic{font-size:15px;line-height:1;color:#bcd4ea;}
+.bh53p2-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.bh53p2-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.bh53p2-l2{font-size:13px;font-weight:700;color:#eef4fa;white-space:nowrap;}
+.bh53p2-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(22,26,30,.6);padding:16px;}
+.bh53p2-modal.open{display:flex;}
+.bh53p2-card{position:relative;background:#fbf7ee;max-width:1080px;width:100%;max-height:90vh;overflow:auto;border:1px solid #d3cdbf;border-radius:14px;padding:28px 22px 20px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.bh53p2-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#3f5160;}
+.bh53p2-card .sub{margin:0 0 12px;font-family:"Noto Sans TC",sans-serif;font-size:12.5px;color:#5b6b78;}
+.bh53p2-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#eceef0;color:#3f5160;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.bh53p2-close:hover{background:#dde2e6;}
+.bh53p2-tbl{width:100%;border-collapse:collapse;font-size:12.8px;margin:.2em 0 1em;}
+.bh53p2-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#3f5160;font-size:14px;text-align:left;margin:.4em 0 .5em;}
+.bh53p2-tbl th,.bh53p2-tbl td{border:1px solid #d8d2c4;padding:.5em .65em;text-align:left;vertical-align:top;line-height:1.72;}
+.bh53p2-tbl thead th{background:#3f5160;color:#eef4fa;font-weight:700;position:sticky;top:0;}
+.bh53p2-tbl thead th:nth-child(1){width:32%;}.bh53p2-tbl thead th:nth-child(2){width:41%;}.bh53p2-tbl thead th:nth-child(3){width:27%;}
+.bh53p2-src{font-family:"Noto Serif TC",serif;color:#5a4636;background:#f6efe0;letter-spacing:.3px;}
+.bh53p2-guan{background:#eef2f5;color:#37505f;}
+.bh53p2-tbl tbody tr:nth-child(even) td{background:#faf6ee;}
+.bh53p2-tbl tbody tr:nth-child(even) td.bh53p2-guan{background:#e8eef2;}
+.bh53p2-tbl b{color:#8b2500;}
+.bh53p2-guan b{color:#2f6b5a;}
+.bh53p2-note{font-size:12px;color:#4a5560;line-height:1.95;background:#eef2f5;border-left:3px solid #7f9cb5;border-radius:0 6px 6px 0;padding:11px 14px;margin:2px 0 0;}
+.bh53p2-note b{color:#8b2500;}
+@media(max-width:900px){.bh53p2-fabbox{right:14px;}.bh53p2-tbl{font-size:11px;}.bh53p2-card{padding:22px 12px 14px;}}
+</style>
+<div class="bh53p2-fabbox" id="bh53p2Box"><button class="bh53p2-btn" id="bh53p2Btn" type="button" aria-label="開啟白話翻譯表"><span class="bh53p2-ic">譯</span><span class="bh53p2-ls"><span class="bh53p2-l1">本品 · 原文·白話·中觀</span><span class="bh53p2-l2">白話翻譯表</span></span></button></div><div class="bh53p2-modal" id="bh53p2Modal" role="dialog" aria-modal="true"><div class="bh53p2-card"><button class="bh53p2-close" id="bh53p2Close" type="button" aria-label="關閉">×</button><h3>卷五十三 · 第2品 白話翻譯表</h3><p class="sub">《大智度論》卷五十三 · 般若法性無生 · 原文↔白話↔中觀概念 逐段對照（經．舍利弗三問須菩提三答：破生·破二·統合；論．本自無生·除廁喻·自相空與散空之別）</p><table class="bh53p2-tbl"><caption>《大智度論》卷五十三 · 原文｜白話翻譯｜中觀概念（共6段）</caption><thead><tr><th>原文</th><th>白話翻譯</th><th>中觀概念</th></tr></thead><tbody><tr><td class="bh53p2-src">舍利弗問須菩提：「何因緣故，色不生是非色？受、想、行、識不生是非識，乃至一切種智不生是非一切種智？」須菩提答：「色，色相空，色空中無色、無生，以是因緣故，色不生是非色；受、想、行、識，識相空，識空中無識、無生，以是因緣故，受、想、行、識不生是非受、想、行、識。舍利弗！檀波羅蜜，檀波羅蜜相空，檀波羅蜜空中無檀波羅蜜、無生；尸羅波羅蜜、羼提波羅蜜、毘梨耶波羅蜜、禪波羅蜜、<b>般若波羅蜜，般若波羅蜜相空，般若波羅蜜空中無般若波羅蜜、無生，以是因緣故，舍利弗！般若波羅蜜不生是非般若波羅蜜。</b>內空乃至無法有法空、四念處乃至十八不共法、一切種智亦如是，以是因緣故，內空不生是非內空，乃至一切種智不生是非一切種智。」</td><td>舍利弗問須菩提說：「是什麼緣故，色是不生的，這個不生就不是色？受、想、行、識是不生的，這個不生就不是識，乃至一切種智是不生的，這個不生就不是一切種智呢？」須菩提回答說：「色，色的相是空的，色的空之中沒有色、也沒有生，因為這個緣故，色是不生的，這個不生就不是色；受、想、行、識，識的相是空的，識的空之中沒有識、也沒有生，因為這個緣故，受、想、行、識是不生的，這個不生就不是受、想、行、識。舍利弗！布施波羅蜜，布施波羅蜜的相是空的，布施波羅蜜的空之中沒有布施波羅蜜、也沒有生；持戒波羅蜜、忍辱波羅蜜、精進波羅蜜、禪定波羅蜜、<b>般若波羅蜜，般若波羅蜜的相是空的，般若波羅蜜的空之中沒有般若波羅蜜、也沒有生，因為這個緣故，舍利弗！般若波羅蜜是不生的，這個不生就不是般若波羅蜜。</b>內空乃至無法有法空、四念處乃至十八不共法、一切種智也都是同樣的道理，因為這個緣故，內空是不生的，這個不生就不是內空，乃至一切種智是不生的，這個不生就不是一切種智。」</td><td class="bh53p2-guan"><b>色相空故不生非色（破生·第一問）</b>——正答舍利弗初問「何因緣色不生是非色」：色等五蘊、六度、十八空、道品乃至一切種智，皆因其相本空、空中無彼法亦無生，故說不生即非彼法，此為全品「破生」之第一叩問。</td></tr><tr><td class="bh53p2-src">舍利弗問須菩提：「汝何因緣故言『色不二是非色，受、想、行、識不二是非識，乃至一切種智不二是非一切種智』？」須菩提答：「所有色，所有不二；所有受、想、行、識，所有不二。<b>是一切法皆不合、不散，無色、無形、無對，一相，所謂無相。</b>眼乃至一切種智亦如是。以是因緣故，舍利弗！色不二是非色，受、想、行、識不二是非識，乃至一切種智不二是非一切種智。」</td><td>舍利弗問須菩提說：「你是什麼緣故說『色是不二的，這個不二就不是色，受、想、行、識是不二的，這個不二就不是識，乃至一切種智是不二的，這個不二就不是一切種智』呢？」須菩提回答說：「所有的色，所有的都是不二的；所有的受、想、行、識，所有的都是不二的。<b>這一切法都是不合、不散的，沒有色相、沒有形狀、沒有對待，同一相，也就是所謂的『無相』。</b>眼乃至一切種智也是同樣的道理。因為這個緣故，舍利弗！色是不二的，這個不二就不是色，受、想、行、識是不二的，這個不二就不是識，乃至一切種智是不二的，這個不二就不是一切種智。」</td><td class="bh53p2-guan"><b>不合不散·一相無相（破二·第二問）</b>——正答第二問「何因緣色不二」：一切法不合不散、無色無形無對待，同一相即是無相，故說不二即非彼法，此為全品「破二」之第二叩問，與破生同義而觀門不同。</td></tr><tr><td class="bh53p2-src">舍利弗問須菩提：「何因緣故言『是色入無二法數，受、想、行、識入無二法數，乃至一切種智入無二法數』？」須菩提答：「<b>色不異無生，無生不異色，色即是無生，無生即是色；</b>受、想、行、識不異無生，無生不異識，識即是無生，無生即是識。以是因緣故，舍利弗！色入無二法數，受、想、行、識入無二法數，乃至一切種智亦如是。」</td><td>舍利弗問須菩提說：「是什麼緣故說『色是納入無二法之數的，受、想、行、識是納入無二法之數的，乃至一切種智也是納入無二法之數的』呢？」須菩提回答說：「<b>色不異於無生，無生不異於色，色就是無生，無生就是色；</b>受、想、行、識不異於無生，無生不異於識，識就是無生，無生就是識。因為這個緣故，舍利弗！色是納入無二法之數的，受、想、行、識是納入無二法之數的，乃至一切種智也都是同樣的道理。」</td><td class="bh53p2-guan"><b>色即是無生·入無二法數（終極統合·第三問）</b>——正答第三問，總收破生、破二二門於「色即是無生」一句：色與無生不異不二，故一切法悉入無二法數，此為全品終極統合，時間因果之破生與空間對待之破二，終歸同一無生實相。</td></tr><tr><td class="bh53p2-src">問曰：上品竟，便應問「不生」，何以此中方問？答曰：三種大法易解，利益多眾生故先問。「何因緣故，色不生為非色，乃至一切種智不生為非一切種智？」須菩提答：「色是空，色中無色相。」行者以是無生智慧令色無生；若能得是無生，心作是念「今即得色實相」，是故言：「色無生為非色。」<b>色性常自無生，非今智慧力故使無生。</b>如有人破色令空，猶存本色想；譬如除廁作舍，今雖無廁，猶有不淨想。若能知廁本無，幻化所作，則無廁想；行者如是，若能知色從本已來初自無生者，則不復存色想。是故言：「色無生為非色。」乃至一切種智亦如是。</td><td>論主自問：上一品已經講完了，接著應該問「不生」的道理，為什麼要在這裡才問呢？論主自答：因為菩薩、般若、觀這三種大法容易理解，能利益眾多眾生，所以先問這三種法。「是什麼緣故，色是不生所以不是色，乃至一切種智是不生所以不是一切種智呢？」須菩提回答說：「色是空的，色之中沒有色的相狀。」修行人透過這個無生的智慧使色成為無生；如果能得到這個無生的體悟，心裡便會這樣想：「如今就已經得到了色的實相。」所以才說：「色無生所以不是色。」<b>色的自性本來就一直是無生的，並不是因為如今用了智慧的力量才使它變成無生的。</b>就好比有人把色破除而使它變成空，卻仍然存有原本色的想法；就譬如清除了廁所改建成房舍，如今雖然沒有廁所了，卻仍然存有不清淨的想法。如果能知道廁所本來就是沒有的、是虛幻造作出來的，那就不會再有廁所的想法了；修行人也是這樣，如果能知道色從本以來原本就是無生的，那就不會再存有色的想法了。所以才說：「色無生所以不是色。」乃至對一切種智也是同樣的道理。</td><td class="bh53p2-guan"><b>色性本自無生·非智力所使（本自無生·除廁喻）</b>——論主先釋為何三種大法在先、無生後問（易解利眾生），再釋「色是空、色中無色相」之義：色之無生本是自性如此，並非今日智慧力造作出來，並以「除廁作舍」為喻——知廁本無方無不淨想，知色本無生方不存色想，破除「有作之空」與「本性自空」之混淆。</td></tr><tr><td class="bh53p2-src">問曰：汝先自說「無生即是無二」，今何以更問？答曰：義雖一，所入觀門異。上言破因中先有果若無果，是生法一異等，是生若初生、若後生——破如是等生名「無生」。今破眼色、有無等諸二故，是名「不二」。行者或先入無生觀門，後入不二；或先入不二，後入無生觀。義雖一，行者分別。<b>破色二故言「不二」，破色生故言「無生」。</b>上說無生因緣，謂「自相空」；今說不二因緣，所謂「不合、不散，一相，所謂無相」等。<b>義雖同一空，上自相空，此是散空。</b></td><td>論主自問：你先前自己已經說過「無生就是無二」，如今為什麼還要再問呢？論主自答：義理雖然是同一個，但是所趣入的觀察法門是不同的。前面說的是破除「因中先有果、若無果」等等這一類生法是一是異、是初生還是後生的種種執著——像這樣破除生的執著，就稱為「無生」。如今則是破除眼與色、有與無等等種種對待二法的執著，這就稱為「不二」。修行人或許先趣入無生觀門，然後再趣入不二觀門；或許先趣入不二觀門，然後再趣入無生觀門。義理雖然是同一個，但修行人可以分別次第來體會。<b>破除色的對待二法，所以說是「不二」；破除色的生起執著，所以說是「無生」。</b>前面所說無生的因緣，稱為「自相空」；如今所說不二的因緣，也就是所謂「不合、不散，同一相，也就是所謂的無相」等等。<b>義理雖然同屬一個空，但前面是自相空，這裡則是散空（因對待分別而顯的空）。</b></td><td class="bh53p2-guan"><b>無生無二義同觀門異（自相空與散空之別）</b>——論主辨析「無生」與「不二」義理同一而觀門有異：無生從破因果生起之執著而立（自相空），不二從破眼色有無等對待二法而立（散空），修行人可依次第分別趣入，終歸同一空義，此即「歸元無二路，方便有多門」之理。</td></tr><tr><td class="bh53p2-src">「色入無二法數」者，行者觀色不生不滅相，是時分別色，今變為無生，是故說色無生即是不二。何以故？<b>色破散即是無生。</b>如先分別諸法時，離色不得更有生；今色破散即是無生，不得更有無生。以是故，<b>色即是入無二法數。</b>是二阿羅漢於佛前共論竟，須菩提白佛而更說是義，欲使佛證知故。</td><td>所謂「色入無二法數」，是說修行人觀色不生不滅之相，這時候分別色的狀態，如今已轉變為無生，所以說色的無生就是不二。為什麼呢？<b>色破除散壞了，就是無生。</b>就像先前分別諸法的時候，離開了色便不會另外再有生起；如今色破除散壞了就是無生，也不會再另外有一個無生存在。因此，<b>色就是納入無二法之數的。</b>這是舍利弗與須菩提兩位阿羅漢在佛前共同論議完畢，須菩提又向佛稟白、進一步說明這個道理，是想要讓佛來為此作證明的緣故。</td><td class="bh53p2-guan"><b>色破散即無生·入無二法數（總結）</b>——論主總結：色破散即是無生，無生不可再立另一無生，故色即入無二法數；並以「二阿羅漢於佛前共論竟，須菩提白佛更說」收束全品，顯此三問三答乃於佛前共同論議、求佛證知之義。</td></tr></tbody></table><p class="bh53p2-note">本表為卷五十三第2品「般若法性無生」的原文·白話·中觀三欄對照。全品記錄舍利弗與須菩提二阿羅漢於佛前三重論辯：初問色何以不生是非色（須菩提答以色相空、空中無色無生——破生），次問色何以不二是非色（答以一切法不合不散、一相無相——破二），終問色何以入無二法數（答以色即是無生、無生即是色——終極統合）。論主隨後釋疑：先明何以三種大法在先、無生後問，並以除廁喻說明色性本自無生、非智力今日造作；復辨無生與不二義雖同一而觀門有異（無生為自相空、不二為散空），終以色破散即是無生、不得更立無生，總結色入無二法數之理，並點出此三問三答乃二阿羅漢於佛前共論、求佛證知。白話忠於原意、不增不減。</p></div></div>
+<script id="wy-bh53p2-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("bh53p2Btn"),BOX=document.getElementById("bh53p2Box"),MODAL=document.getElementById("bh53p2Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=1;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+function upd(){BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="bh53p2Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BH53P2:END-->
 </body>
 </html>
